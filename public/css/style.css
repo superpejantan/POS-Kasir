@@ -1,0 +1,511 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+  }
+  
+  /* Header/Blog Title */
+  header {
+    padding: 10px;
+    text-align: center;
+    float: right;
+    width: 1105px;
+    background-color:#1DA4AC; 
+  }
+  
+  .header h1 {
+    font-size: 20px;
+  }
+  .wrap {
+    width: 1330px; /*950px*/
+    margin:0px auto;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    float:left;
+    width:80%;
+    margin-left: 230px;
+    
+    background-color: #1DA4AC;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .blog {
+    width: 1060px;
+    float:left;
+    margin-left: 250px;
+    margin-top: 5px;
+    border:1px solid #dedede;
+    box-shadow: 5px 10px 8px 10px  #888888;
+  }
+  .blog-kanan {   
+    float: right;
+    width: 740px;
+    height: 500px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    background: rgb(221, 234, 247);
+    border:solid 3px black;
+  }
+
+  .blog-atas{
+    float: left;
+    width: 100px;
+    margin-right: 10px;
+    height: auto;
+    
+  }
+  .blog-atas-2{
+    float: left;
+    width: 200px;
+    font-size: 100px;
+    margin-left: 300px;
+    height: auto;
+    
+  }
+  .blog-atas-1{
+    float:left;
+    margin-left: 150px;
+    height: 50px;
+    
+  }
+  .blog-kanan-2 {   
+    float: right;
+    width: 569px;
+    height: 310px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+    background: rgb(221, 234, 247);
+    border:solid 3px black;
+  }
+  .blog-kanan-3 {   
+    float: right;
+    width: 290px;
+    height: 150px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background: rgb(221, 234, 247);
+    border:solid 3px black;
+  }
+  .blog-kanan-4 {   
+    float: right;
+    width: 274px;
+    height: 150px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-top: 10px;
+    background: rgb(221, 234, 247);
+    border:solid 3px black;
+  }
+  .blog-kiri {   
+    float: left;
+    width: 499px;
+    height: 300px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: rgb(221, 234, 247);
+    border:solid 3px black;
+  }
+  .conteudo {
+    width:1000px;
+    margin-left: 35px;
+    -webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+    -moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+    box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+  }
+
+  section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Right column */
+  .leftcolumn {
+    float: left;
+    position: fixed;
+    margin-top: 0px;
+   
+
+  }
+  
+  .flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
+  }
+
+  .flex-box .box{
+  background-color: #f1f1f1;
+  width: 230px;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  }
+
+  .box-1 {
+    flex-wrap: wrap;
+    font-size: 12px;
+    width: 100px;
+    height: 50px;
+  }
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    float:right;
+    text-align: center;
+    width:84%;
+    background: #ddd;
+    margin-top: 20px;
+  }
+
+  .navigation {
+  width: 220px;
+  height: 630px;
+  padding-right: 20px;
+  background-color:#1DA4AC; 
+}
+
+/* reset our lists to remove bullet points and padding */
+.mainmenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  right: 10%;
+  height:800px;
+  
+}
+
+.submenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  right: 10%;
+  
+}
+.f-span{
+  font-size: 30px;
+}
+
+.step {
+  display: inline-block;
+  line-height: 1;
+  position: relative;
+  width: 10%;
+}
+
+.size-12 { font-size: 12px; }
+    .size-14 { font-size: 14px; }
+    .size-16 { font-size: 16px; }
+    .size-18 { font-size: 18px; }
+    .size-21 { font-size: 21px; }
+    .size-24 { font-size: 24px; }
+    .size-32 { font-size: 32px; }
+    .size-48 { font-size: 48px; }
+    .size-64 { font-size: 64px; }
+    .size-96 { font-size: 96px; }
+
+/* make ALL links (main and submenu) have padding and background color */
+.mainmenu a {
+  display: block;
+  background-color: #1DA4AC;
+  text-decoration: none;
+  padding: 10px;
+  color: #000;
+}
+
+/* add hover behaviour */
+.mainmenu a:hover {
+    background-color: #C5C5C5;
+}
+
+
+/* when hovering over a .mainmenu item,
+  display the submenu inside it.
+  we're changing the submenu's max-height from 0 to 200px;
+*/
+
+.mainmenu li:hover .submenu {
+  display: block;
+  max-height: 200px;
+}
+
+/*
+  we now overwrite the background-color for .submenu links only.
+  CSS reads down the page, so code at the bottom will overwrite the code at the top.
+*/
+
+.submenu a {
+  background-color: #1DA4AC;
+}
+
+/* hover behaviour for links inside .submenu */
+.submenu a:hover {
+  background-color: #8FBC8F;
+}
+
+/* this is the initial state of all submenus.
+  we set it to max-height: 0, and hide the overflowed content.
+*/
+.submenu {
+  overflow: hidden;
+  max-height: 0;
+  
+}
+.col-25 {
+  float: left;
+  width: 40px;
+  padding-right: 10px;
+  margin-top: 6px;
+  margin-left: 20px;
+}
+
+.col-75 {
+  float: left;
+  
+  padding-right: 10px;
+  margin-top: 6px;
+  margin-left: 20px;
+}
+
+.col-20 {
+  
+  width: 200px;
+  height: 40px;
+  border: solid 1px;
+  margin-left: 15px;
+  margin-top: 10px;
+  
+}
+
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666;
+  text-shadow: 1px 1px 0px #fff;
+  background: #eaebec;
+  border: #ccc 1px solid;
+  margin-top: 0px;
+  width:700px;
+
+}
+ 
+table th {
+  padding: 15px 35px;
+  border-left:1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  background: #ededed;
+}
+ 
+table th:first-child{  
+  border-left:none;  
+}
+ 
+table tr {
+  text-align: center;
+  padding-left: 20px;
+}
+
+li {
+  margin-left: 4px;
+}
+ 
+table td:first-child {
+  text-align: left;
+  padding-left: 10px;
+  border-left: 0;
+}
+ 
+table td {
+  padding: 15px 35px;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+  border-left: 1px solid #e0e0e0;
+  background: #fafafa;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+  background: -moz-linear-gradient(top, #fbfbfb, #fafafa);
+}
+ 
+table tr:last-child td {
+  border-bottom: 0;
+}
+ 
+table tr:last-child td:first-child {
+  -moz-border-radius-bottomleft: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+ 
+table tr:last-child td:last-child {
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+ 
+table tr:hover td {
+  background: #f2f2f2;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+  background: -moz-linear-gradient(top, #f2f2f2, #f0f0f0);
+}
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+  /*
+ * Component: Small Box
+ * --------------------
+ */
+.small-box {
+  border-radius: 2px;
+  position: relative;
+  display: block;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.small-box > .inner {
+  padding: 10px;
+}
+.small-box > .small-box-footer {
+  position: relative;
+  text-align: center;
+  padding: 3px 0;
+  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
+  display: block;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+}
+.small-box > .small-box-footer:hover {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.15);
+}
+.small-box h3 {
+  font-size: 38px;
+  font-weight: bold;
+  color: #f9f9f9;
+  margin: 0 0 10px 0;
+  white-space: nowrap;
+  padding: 0;
+}
+.small-box p {
+  font-size: 15px;
+  color: #f9f9f9;
+}
+.small-box p > small {
+  display: block;
+  color: #f9f9f9;
+  font-size: 13px;
+  margin-top: 5px;
+}
+.small-box h3,
+.small-box p {
+  z-index: 5;
+}
+.small-box .icon {
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  z-index: 0;
+  font-size: 90px;
+  color: rgba(0, 0, 0, 0.15);
+}
+.small-box:hover {
+  text-decoration: none;
+  color: #f9f9f9;
+}
+.small-box:hover .icon {
+  font-size: 95px;
+}
+@media (max-width: 767px) {
+  .small-box {
+    text-align: center;
+  }
+  .small-box .icon {
+    display: none;
+  }
+  .small-box p {
+    font-size: 12px;
+  }
+}
+
+.col-lg-3 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.col-xs-6 {
+  width: 50%;
+}
+
+.bg-aqua {
+  background-color: #0544d6 !important;
+}
+/*
+ * Component: Box
+ * --------------
+ */
